@@ -22,6 +22,13 @@ package com.teotigraphix.gdx.app;
 import com.badlogic.gdx.ApplicationListener;
 import com.google.common.eventbus.EventBus;
 
+/**
+ * The {@link IApplication} is the top level model used in an application with
+ * scenes and behaviors.
+ * 
+ * @author Michael Schmalle
+ * @since 1.0
+ */
 public interface IApplication extends ApplicationListener {
 
     /**

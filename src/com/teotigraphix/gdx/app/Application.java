@@ -22,6 +22,10 @@ package com.teotigraphix.gdx.app;
 import com.badlogic.gdx.Gdx;
 import com.google.common.eventbus.EventBus;
 
+/**
+ * @author Michael Schmalle
+ * @since 1.0
+ */
 public abstract class Application implements IApplication {
 
     private static final String TAG = "Application";

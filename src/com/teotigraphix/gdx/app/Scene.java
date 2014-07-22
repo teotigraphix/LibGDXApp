@@ -33,6 +33,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.WidgetGroup;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
+/**
+ * @author Michael Schmalle
+ * @since 1.0
+ */
 public abstract class Scene implements IScene {
 
     public static final String LOG = Scene.class.getSimpleName();

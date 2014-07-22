@@ -24,6 +24,13 @@ import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
+/**
+ * The {@link IScene} is a full screen user interface display that holds
+ * {@link ISceneBehavior} composites that mediate user interface logic.
+ * 
+ * @author Michael Schmalle
+ * @since 1.0
+ */
 public interface IScene {
 
     /**
